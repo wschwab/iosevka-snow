@@ -1,7 +1,7 @@
 # Iosevka Snow
 
-Pinned built bytes of **Iosevka Snow**, the terminal and interface face of
-[Snow Storm Station](https://github.com/wschwab/snow-station).
+Pinned built bytes of **Iosevka Snow**, the terminal and interface face for a 
+personal ricing project called Snow Storm Station.
 
 Iosevka Snow is a custom Iosevka build: `term` spacing, `sans` serifs, regular
 and bold with italic and oblique, family name `Iosevka Snow`.
@@ -38,8 +38,9 @@ source-built derivation, so consumers need no path changes when switching
 between them.
 
 Note that a private repository's release assets require authentication, which a
-Nix build sandbox does not have. Either this repository is public, or consumers
-must pin the tag over authenticated SSH instead of fetching the asset.
+Nix build sandbox does not have. The simplest solution is pulling from public. If 
+the source is private, make sure the sandbox has the proper SSH credentials 
+pinned.
 
 ## Cutting a release
 
